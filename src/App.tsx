@@ -76,6 +76,7 @@ const App: React.FC = () => {
         <SandboxIframe
           htmlContent={htmlContent}
           onElementSelect={handleElementSelect}
+          onHtmlChange={setHtmlContent}
         />
       </div>
       <div className="w-1/3">
